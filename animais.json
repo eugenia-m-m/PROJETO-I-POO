@@ -1,0 +1,38 @@
+[
+    {
+        "ID": 1,
+        "Nome": "Luna",
+        "Especie": "Cachorro",
+        "Sexo": "Fêmea",
+        "Idade": "2 anos",
+        "Raca": "Labrador",
+        "Disponibilidade": "Sim"
+    },
+    {
+        "ID": 2,
+        "Nome": "Rex",
+        "Especie": "Cachorro",
+        "Sexo": "Macho",
+        "Idade": "3 anos",
+        "Raca": "Vira-lata",
+        "Disponibilidade": "Sim"
+    },
+    {
+        "ID": 3,
+        "Nome": "Toby",
+        "Especie": "Gato",
+        "Sexo": "Macho",
+        "Idade": "1 ano",
+        "Raca": "Siames",
+        "Disponibilidade": "Sim"
+    },
+    {
+        "ID": 4,
+        "Nome": "Charlie",
+        "Especie": "Gato",
+        "Sexo": "Macho",
+        "Idade": "2 anos",
+        "Raca": "Persa",
+        "Disponibilidade": "Sim"
+    }
+]
