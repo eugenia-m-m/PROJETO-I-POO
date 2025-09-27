@@ -44,13 +44,13 @@ class SistemaAdocao:
         
         resultado = "\n📋 --- Animais cadastrados ---\n"
         for animal in cls.list_animais:
-            resultado += f"ID: {animal['id']}\n"
-            resultado += f"Nome: {animal['nome']}\n"
-            resultado += f"Espécie: {animal['especie']}\n"
-            resultado += f"Sexo: {animal['sexo']}\n"
-            resultado += f"Idade: {animal['idade']}\n"
-            resultado += f"Raça: {animal['raca']}\n"
-            resultado += f"Disponibilidade: {animal['disponibilidade']}\n"
+            resultado += f"ID: {animal['ID']}\n"
+            resultado += f"Nome: {animal['Nome']}\n"
+            resultado += f"Espécie: {animal['Especie']}\n"
+            resultado += f"Sexo: {animal['Sexo']}\n"
+            resultado += f"Idade: {animal['Idade']}\n"
+            resultado += f"Raça: {animal['Raca']}\n"
+            resultado += f"Disponibilidade: {animal['Disponibilidade']}\n"
             resultado += "-" * 30 + "\n"
         return resultado
 
