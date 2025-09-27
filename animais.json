@@ -1,7 +1,7 @@
 [
     {
-        "ID": 1,
-        "Nome": "Luna",
+        "ID": "1",
+        "Nome": "Ester",
         "Especie": "Cachorro",
         "Sexo": "Fêmea",
         "Idade": "2 anos",
@@ -9,7 +9,7 @@
         "Disponibilidade": "Sim"
     },
     {
-        "ID": 2,
+        "ID": "2",
         "Nome": "Rex",
         "Especie": "Cachorro",
         "Sexo": "Macho",
@@ -18,21 +18,12 @@
         "Disponibilidade": "Sim"
     },
     {
-        "ID": 3,
+        "ID": "3",
         "Nome": "Toby",
         "Especie": "Gato",
         "Sexo": "Macho",
         "Idade": "1 ano",
         "Raca": "Siames",
-        "Disponibilidade": "Sim"
-    },
-    {
-        "ID": 4,
-        "Nome": "Charlie",
-        "Especie": "Gato",
-        "Sexo": "Macho",
-        "Idade": "2 anos",
-        "Raca": "Persa",
         "Disponibilidade": "Sim"
     }
 ]
