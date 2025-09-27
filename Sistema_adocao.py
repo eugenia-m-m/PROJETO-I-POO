@@ -57,7 +57,7 @@ class SistemaAdocao:
     @classmethod
     def editar_Animal(cls, id_animal, novo_nome):
         for animal in cls.list_animais:
-            if animal["ID"] == int(id_animal):
+            if animal["ID"] == id_animal:
                 animal["Nome"] = novo_nome
 
                 cls.salvar(cls.list_animais)
@@ -67,14 +67,8 @@ class SistemaAdocao:
     @classmethod
     def remover_Animal(cls, id_animal):
         for animal in cls.list_animais:
-            if animal["ID"] == int(id_animal):
+            if animal["ID"] == id_animal:
                 cls.list_animais.remove(animal)
                 cls.salvar(cls.list_animais)
                 return "🗑️ Animal removido com sucesso."
         return "⚠️ Animal não encontrado."
-
-sistema = SistemaAdocao()
-sistema.cadastrar_Animal(1, "Luna", "Cachorro", "Fêmea", "2 anos", "Labrador", "Sim")
-sistema.cadastrar_Animal(2, "Rex", "Cachorro", "Macho", "3 anos", "Vira-lata", "Sim")
-sistema.cadastrar_Animal(3, "Toby", "Gato", "Macho", "1 ano", "Siames", "Sim")
-sistema.cadastrar_Animal(4, "Charlie", "Gato", "Macho", "2 anos", "Persa", "Sim")
